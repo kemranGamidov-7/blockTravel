@@ -1,0 +1,39 @@
+@media screen and (max-width: 840px) {
+    .nav-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-header {
+        display: none;
+    }
+
+    .mob-hide {
+        display: none;
+    }
+
+    .headline {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .container-photo {
+        img {
+            height: 250px;
+            width: 250px;
+        }
+    }
+    
+    .block-photo {
+        flex-wrap: wrap;
+    }
+
+    .bl-text-about {
+        width: 250px;
+        margin: auto;
+    }
+
+    .bl-headline-inside {
+        padding: 10px;
+    }
+}

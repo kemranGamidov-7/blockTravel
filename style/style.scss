@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+.body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+// !!!header!!! /// 
+
+.header {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+
+    div {
+        padding: 20px 10px;;
+
+        a {
+            color: black;
+            text-decoration: none;
+            
+        }
+    }
+
+    div:hover {
+        background-color: rgb(36, 36, 36);
+        transition-duration: .5s;
+        
+        a {
+            color: white;
+            border-bottom: 1px solid white;
+            
+        }
+    }
+}
+
+.contact-header {
+    display: flex;
+    width: 7%;
+    
+    div {
+        margin: auto;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+// !!!main!!! /// 
+
+.slogan {
+    text-align: center;
+}
+
+.yellow-block {
+    padding: 200px 0px 100px 0px;
+    background-color: #f8f951;
+}
+
+.span-letter-yellow {
+    background-color: #ffff00;
+}
+
+.span-letter-green {
+    background-color: #01ff01;
+}
+
+.span-letter-blue {
+    background-color: #01ffff;
+}
+
+.span-letter-white {
+    background-color: #fefefe;
+}
+
+.headline {
+    text-align: center;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.bird {
+    text-align: center;
+}
+
+.black-block {
+    background-color: rgb(36, 36, 36);
+    
+}
+
+.container-photo {
+    margin: auto;
+
+    img {
+        height: 400px;
+        width: 400px;
+        border: 5px solid #3F3939;
+        margin: 10px;
+    }
+}
+
+.block-photo {
+    display: flex;
+    justify-content: center;
+}
+
+// !!!footer!!! /// 
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: #aa00ff;
+}
+
+.footer {
+    text-align: center;
+    width: 400px;
+}
+
+.border {
+    text-align: center;
+}
+
+
+// !! block !! //
+
+.bl-div-main {
+    text-align: center;
+    background-color: #f8f951;
+}
+
+.bl-headline {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.bl-headline {
+    margin-bottom: 50px;
+}
+
+.bl-text-about {
+    width: 750px;
+    margin: auto;
+}
+
+.bl-img {
+    display: flex;
+    justify-content: space-around;
+    img {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 350px;
+        height: 300px;
+        border: 1px solid rgb(204, 201, 201);
+    }
+}
+
+.bl-hide {
+    display: none;
+}
